@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  testnhipster-app:
+    build: ../../..
+    container_name: testnhipster-app
+    environment:
+    ports:
+      - 8081:8081
